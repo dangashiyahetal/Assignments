@@ -1,0 +1,73 @@
+.container {
+  height: 600px;
+  width: 600px;
+  border: 1px solid black;
+  margin-bottom: 5px;
+}
+.header {
+  height: 50px;
+
+  border: 1px solid black;
+  margin: 15px;
+  box-sizing: border-box;
+}
+.nav {
+  border: 1px solid black;
+  height: 370px;
+  width: 50px;
+  margin-left: 10px;
+  float: left;
+  padding-top: 5px;
+}
+.content {
+  border: 1px solid black;
+  height: 370px;
+  width: 400px;
+  margin-left: 75px;
+  padding-top: 5px;
+}
+.sub {
+  border: 1px solid black;
+  height: 50px;
+  margin: 15px;
+}
+.box {
+  display: flex;
+  justify-content: space-evenly;
+}
+.box1 {
+  border: 1px solid black;
+  height: 230px;
+  width: 110px;
+}
+.box2 {
+  border: 1px solid black;
+  height: 230px;
+  width: 110px;
+}
+.box3 {
+  border: 1px solid black;
+  height: 230px;
+  width: 110px;
+}
+.ads {
+  border: 1px solid black;
+  height: 450px;
+  width: 15%;
+  float: left;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+.contents {
+  margin-top: 15px;
+  float: left;
+  width: 80%;
+}
+.footer {
+  border: 1px solid black;
+  width: 465px;
+  height: 50px;
+  margin-top: 25px;
+  margin-left: 10px;
+}
