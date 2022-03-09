@@ -1,0 +1,54 @@
+.container {
+  margin: 30px 30px 0 30px;
+}
+.mainlogo {
+  float: left;
+}
+.USA {
+  width: 15%;
+}
+.topoptions {
+  display: flex;
+  justify-content: right;
+  gap: 10px;
+}
+.RENT {
+  font-size: 13px;
+  margin-top: 30px;
+  float: left;
+  position: fixed;
+  margin-left: 125px;
+}
+
+.mainoptions {
+  display: flex;
+  background-color: gainsboro;
+  justify-content: space-around;
+  margin: 30px 0 30px 0;
+  height: 20px;
+  padding-top: 25px;
+}
+
+.steps {
+  height: 35px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.descriptions {
+  float: left;
+}
+.lastrow {
+  float: right;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.secondcolumn {
+  padding: 30px;
+}
