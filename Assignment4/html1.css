@@ -1,5 +1,6 @@
 .container {
   margin: 0 9%;
+  width: 85%;
 }
 .mainlogo {
   float: left;
@@ -18,49 +19,139 @@
   margin-left: 125px;
   padding-top: 30px;
 }
-
+.caroptions {
+  float: left;
+  margin-right: 20px;
+  width: 65%;
+}
 .mainoptions {
+  font-size: 13px;
   display: flex;
+  height: 25px;
   background-color: gainsboro;
-  justify-content: space-around;
-  margin: 30px 0 30px 0;
-  height: 20px;
-  padding-top: 25px;
+  justify-content: center;
+  margin: 15px 0 15px 0;
 }
 
+ul {
+  display: inline-flex;
+  list-style: none;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+li {
+  width: 100%;
+  padding-top: 5pxvb;
+}
+li:hover {
+  background-color: lightblue;
+}
 .steps {
-  height: 35px;
-  margin-bottom: 15px;
+  height: 20px;
+  margin-bottom: 10px;
   display: flex;
   justify-content: space-around;
+  background-color: gainsboro;
+  padding-top: 15px;
+}
+.mainoptions a {
+  width: 175px;gnf
 }
 a {
   text-decoration: none;
   color: black;
 }
-
 .descriptions {
   float: left;
 }
-.lastrow {
-  float: right;
-}
-tr:nth-child(even) {
+
+.car-table tr:nth-child(even) {
   background-color: #f2f2f2;
 }
 .secondcolumn {
   width: 31%;
-  padding-right: 30px;
 }
 .itinerary {
   background-color: rgba(166, 218, 236, 0.39);
-  width: 100%;
-  margin-bottom: 2px;
+
+  margin-bottom: 5px;
+}
+.init1 {
+  display: flex;
+  justify-content: space-around;
+}
+.init2 {
+  font-size: 18px;
+  color: rgb(16, 156, 199);
 }
 .sidenav {
-  display: flex;
-  justify-content: left;
+  display: flow-root;
 }
-.caroptions {
-  float: left;
+.share {
+  margin-top: 15px;
+  padding-right: 14px;
+}
+.phoneicon {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+.phone {
+  height: 50px;
+  width: 28px;
+}
+.connect {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.signup {
+  height: 15px;
+  width: 55%;
+  font-size: 15px;
+  padding-top: 7px;
+}
+
+.offer-img {
+  width: 100%;
+}
+footer {
+  margin-top: 16%;
+}
+.phone1 {
+  color: rgb(16, 156, 199);
+  font-size: 20px;
+  padding-top: 10px;
+}
+.button {
+  background-color: rgb(11, 128, 182);
+  color: white;
+  padding: 7px 11px 0 11px;
+}
+.tablelast {
+  background-color: rgba(112, 172, 190, 0.253);
+  border-bottom: 10px solid rgb(11, 128, 182);
+  padding-bottom: 20px;
+  position: sticky;
+}
+.bottom1 {
+  display: inline-block;
+  border-right: 1px solid ivory;
+  height: 205px;
+  padding-right: 15px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+.second {
+  padding-top: 15px;
+}
+.bold {
+  font-weight: bold;
+}
+.last {
+  margin-left: 15px;
+}
+.third {
+  padding-top: 15px;
 }
