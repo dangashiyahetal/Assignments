@@ -1,7 +1,9 @@
 button {
-  background-color: blue;
+  background-color: rgba(43, 43, 187, 0.664);
   color: white;
-  border-radius: 5px;
-  height: 30px;
+  border-radius: 10px;
+  height: 50px;
   width: 200px;
+  font-weight: bold;
+  font-size: large;
 }
