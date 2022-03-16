@@ -8,7 +8,11 @@ function Calculate() {
   alert("multiply of " + x + " and " + y + " = " + multipy);
   alert("modulus of " + x + " and " + y + " = " + modulus);
 }
-
+function allfunctions() {
+  sum();
+  multiply();
+  modulus();
+}
 function sum() {
   var x = 10;
   var y = 5;
@@ -20,5 +24,12 @@ function multiply() {
   var x = 10;
   var y = 5;
   var multiply = x * y;
-  alert("multiply " + x + " and " + y + " = " + sum);
+  alert("multiply " + x + " and " + y + " = " + multiply);
+}
+
+function modulus() {
+  var x = 10;
+  var y = 5;
+  var modulus = x % y;
+  alert("modulus " + x + " and " + y + " = " + modulus);
 }
