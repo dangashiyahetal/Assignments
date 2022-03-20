@@ -1,8 +1,8 @@
 button {
   background-color: rgba(43, 43, 187, 0.664);
-  color: white;
+  color: rgb(190, 175, 175);
   border-radius: 10px;
-  height: 50px;
+  height: 40px;
   width: 200px;
   font-weight: bold;
   font-size: large;

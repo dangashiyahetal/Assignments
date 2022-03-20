@@ -34,14 +34,14 @@ function modulus() {
   alert("modulus " + x + " and " + y + " = " + modulus);
 }
 function question3() {
-  alert(addition());
+  var x = 50;
+  var y = 6;
+  alert(addition(x, y));
   alert(multiplication());
   alert(modulus1());
 }
-function addition() {
-  var x = 50;
-  var y = 6;
-  return x + y;
+function addition(a, b) {
+  return a + b;
 }
 
 function multiplication() {
@@ -116,6 +116,7 @@ function exponent() {
 // Question 7
 var a = 5;
 var b = 10;
+
 function globaladd() {
   var c = a++;
   alert(c);
@@ -140,7 +141,7 @@ function localfunctions() {
 function Fahtocel() {
   var F = 60;
   var C = ((F - 32) * 5) / 9;
-  alert(C);
+  alert("C to F " + C);
 }
 
 function display() {
