@@ -18,3 +18,25 @@
     }
   }
 })();
+
+// Another way
+
+function checkprimenumber(n) 
+{ 
+  for (let i = 2; i <= n - 1; c++) { 
+    if (n % i == 0) 
+    { 
+      return false; 
+    } 
+    return true;
+  } 
+}
+
+function printprimenumber() { 
+  for (i = 1; i <= 100; i++) { 
+    if (checkprimenumber(i) == true) { 
+      console.log("Prime Number: " + i )
+    } 
+  } 
+}
+printprimenumber();
