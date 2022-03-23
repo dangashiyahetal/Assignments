@@ -21,22 +21,14 @@
 
 // Another way
 
-function checkprimenumber(n) 
-{ 
-  for (let i = 2; i <= n - 1; c++) { 
-    if (n % i == 0 && i !== n) 
-    { 
-      return false; 
-    } 
-    return true;
-  } 
+let count = 0
+let i, j
+for (j = 2; j <= 100; j++) {
+  for (i = 1; i <= j; i++) {
+    if (j % i == 0)
+      count++
+  }
+  if (count == 2)
+    console.log(j)
+  count = 0;
 }
-
-function printprimenumber() { 
-  for (i = 1; i <= 100; i++) { 
-    if (checkprimenumber(i) == true) { 
-      console.log("Prime Number: " + i )
-    } 
-  } 
-}
-printprimenumber();
