@@ -23,6 +23,8 @@ function switchcase(year) {
       break;
     case 2021:
       alert("The Guardian");
+    default:
+      alert("Enter year from 2014-2021 ");
   }
 }
 switchcase(prompt("Enter Year"));
