@@ -24,7 +24,7 @@
 function checkprimenumber(n) 
 { 
   for (let i = 2; i <= n - 1; c++) { 
-    if (n % i == 0) 
+    if (n % i == 0 && i !== n) 
     { 
       return false; 
     } 
