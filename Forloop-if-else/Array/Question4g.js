@@ -10,9 +10,7 @@ let sayings = [
   "Let the beauty of what you love be what you do",
   "May your choices reflect your hopes, not your fears",
 ];
-
-sayings.push(prompt("Enter value: "));
-for (let index = 0; index < sayings.length; index++) {
-  console.log(sayings[index]);
+var newvalue = sayings.slice(prompt("enter value:"));
+for (let index = 0; index < newvalue.length; index++) {
+  console.log(newvalue[index]);
 }
-console.log(sayings.length);
