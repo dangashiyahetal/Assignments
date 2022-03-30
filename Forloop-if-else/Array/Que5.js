@@ -11,7 +11,8 @@ let sayings = [
   "Let the beauty of what you love be what you do",
   "May your choices reflect your hopes, not your fears",
 ];
-var months = [
+
+let months = [
   "January",
   "february",
   "march",

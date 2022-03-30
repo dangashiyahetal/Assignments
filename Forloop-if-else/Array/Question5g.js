@@ -9,5 +9,5 @@ var months = new Array(
   "sunday",
   "april"
 );
-results = months.push();
+results = months.push("December");
 console.log(results);

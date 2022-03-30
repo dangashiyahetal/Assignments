@@ -9,4 +9,5 @@ var months = new Array(
   "sunday",
   "april"
 );
+
 console.log(months.slice(prompt("Enter Value:")));
