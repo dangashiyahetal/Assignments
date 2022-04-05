@@ -8,7 +8,7 @@ var days = [
   "sunday",
 ];
 function value(day) {
-  matchfound = false;
+  let matchfound = false;
   for (let index = 0; index < days.length; index++) {
     if (day == days[index]) {
       matchfound = true;
