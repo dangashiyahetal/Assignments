@@ -1,7 +1,7 @@
 function validateForm() {
   var regAlphabet = /^[a-zA-Z]+$/;
   var regEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-  var date = /^([0-9]{2})-([0-9]{2})-([0-9]{4})$/;
+  var date = /^([0-9]{4})-([0-9]{2})-([0-9]{2})$/;
   var fname = document.getElementById("fname");
   var lname = document.getElementById("lname");
   var select = document.getElementsByName("gender");
@@ -34,10 +34,14 @@ function validateForm() {
     alert("please enter valid email address");
     return false;
   }
-  if ((birthdate.value.trim = "")) {
+  console.log("birthdate.value.trim = ", birthdate.value);
+  if (birthdate.value.trim() == "" || !date.test(birthdate.value)) {
+    alert("enter valid birthday:");
+    return false;
   }
   if (!box.checked) {
     alert("Please select the accept");
+    return false;
   }
   return false;
 }
