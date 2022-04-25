@@ -6,10 +6,12 @@ function validate() {
       selectedCheckBox.push(box[index].value);
     }
   }
+
   if (selectedCheckBox.length > 0) {
     alert(selectedCheckBox.join("\n"));
   }
 }
+
 function selectall() {
   var boxes = document.getElementsByName("Check");
   for (let index = 0; index < boxes.length; index++) {

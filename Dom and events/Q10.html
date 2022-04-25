@@ -1,0 +1,42 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div id="formdiv" style="float: left; width: 50%; border: 1px solid black;">
+    <input placeholder="First Name" id="fn"><br>
+    <input placeholder="Last Name" id="ln"><br>
+    <label id="selectgender">Gender</label>
+    <input type="radio" placeholder="Female" value="Female" name="gender">
+    <label>Female</label>
+    <input type="radio" placeholder="Male" value="male" name="gender">
+    <label>Male</label>
+    <p>
+      <label>Choose State:</label>
+      <select id="selectstate">
+        <option value="select">select state</option>
+        <option value="PA">Pennsylvania</option>
+        <option value="NJ">New Jersey</option>
+        <option value="NY">New York</option>
+        <option value="VA">Virginia</option>
+      </select>
+    </p>
+    <input type="button" placeholder="SAVE" value="Button" onclick="uservalue()">
+  </div>
+  <div id="Viewdiv" style="float: right; width: 49%; border: 1px solid black; display: none;">
+    <input type="button" placeholder="SAVE" value="EDIT" onclick="displayvalue()">
+    <p>First name:<label id="fname"></label></p>
+    <p>last name:<label id="lname"></label></p>
+    <p>Gender:<label id="gender"></label></p>
+    <p>State:<label id="State"></label></p>
+
+  </div>
+  <script src="Q10.js" type="text/javascript"></script>
+</body>
+
+</html>
