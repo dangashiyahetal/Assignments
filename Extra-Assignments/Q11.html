@@ -1,32 +1,40 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-   
-    <P>
-        <input type="text" id="text1" placeholder="Text" onblur="firstfield()">
-        <input type="text" id="text1" placeholder="Text" onblur="firstfield()">
-        <input type="text" id="text1" placeholder="Text" onblur="firstfield()">
-    
-      </P> 
-    <input type="radio" name="option" id="op1">Button1
-   
-      <input type="radio" name="option" id="op2">Button2
-    </div>
-    <input type="checkbox" onclick="displaycheckbx()" id="checkbx">checkbox<br>
-  
-    <select id="dropDownState" onchange="displaySelectValue()">
-        <option value="none">SELECT FROM OPTIONS BELOW</option>
-        <option value="nj">NJ</option>
-        <option value="pa">PA</option>
-        <option value="ny">NY</option>
-        <option value="mi">MI</option>
-    </select> 
 
-    <script src="q11.js" type="text/javascript"></script>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <P>
+    <input type="text" id="text1" placeholder="Text" onblur="firstfield()">
+    <input type="text" id="text1" placeholder="Text" onblur="firstfield()">
+    <input type="text" id="text1" placeholder="Text" onblur="firstfield()">
+
+  </P>
+  <input type="radio" name="option" id="op1" onchange="displaySelectedcheckbx()">Button1
+
+  <input type="radio" name="option" id="op2" onchange="displaySelectedcheckbx()">Button2
+  </div>
+  <br>
+  <br>
+  <input type="checkbox" onclick="displaycheckbx()" id="checkbx">checkbox
+  <br>
+  <div id="divCheckbox"></div><br>
+  <br>
+
+  <select id="dropDownState" onchange="displaySelectValue()">
+    <option value="none">SELECT FROM OPTIONS BELOW</option>
+    <option value="nj">NJ</option>
+    <option value="pa">PA</option>
+    <option value="ny">NY</option>
+    <option value="mi">MI</option>
+  </select>
+  <br><br><input type="button" onclick="submitForm()" value="Submit">
+  <script src="q11.js" type="text/javascript"></script>
 </body>
+
 </html>
