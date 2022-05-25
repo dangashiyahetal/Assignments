@@ -23,3 +23,25 @@ div#collapseOne {
   border-top: 1px solid gray;
   border-bottom: 1px solid gray;
 }
+.card{
+    padding-left: 20px;
+}
+.navbar-default {
+  background-color: rgb(216, 164, 101) !important;
+}
+.navbar-nav{
+    background-color: rgb(216, 164, 101);
+    font-size: 18px;
+
+}
+.navbar-brand{
+    background-color: rgb(216, 164, 101);
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    line-height: 20px;
+}
+
+.active{
+    background-color: rgb(216, 164, 101);
+}
