@@ -5,18 +5,31 @@ http.open("GET", "./assets/guitardata.json");
 http.send();
 http.onreadystatechange = function () {
   if (this.readyState == 4 && this.status == 200) {
-    guitardata = http.responseText;
-    console.log(JSON.parse(guitardata).allProducts);
-    next(JSON.parse(guitardata).allProducts);
+    guitardata = JSON.parse(http.responseText).allProducts;
+    next();
   }
 };
 
-function next(data) {
-  document.getElementById("displayImg").src = data[count].image_path;
+function next() {
+  count = (count == 3) ? 0 : count;
+  document.getElementById("displayImg").src = guitardata[count].image_path;
   document.getElementById("product-description").innerHTML =
-    data[count].product_description;
+    guitardata[count].product_description;
   document.getElementById("shipping-info").innerHTML =
-    data[count].shipping_details;
+    guitardata[count].shipping_details;
   document.getElementById("customer_review").innerHTML =
-    data[count].customer_reviews;
+    guitardata[count].customer_reviews;
+  count++;
+}
+function previous() {
+  count = (count == 0) ? 3 : count;
+  --count;
+  document.getElementById("displayImg").src = guitardata[count].image_path;
+  document.getElementById("product-description").innerHTML =
+    guitardata[count].product_description;
+  document.getElementById("shipping-info").innerHTML =
+    guitardata[count].shipping_details;
+  document.getElementById("customer_review").innerHTML =
+    guitardata[count].customer_reviews;
+  count = (count == 0) ? 3 : count;
 }
