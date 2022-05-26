@@ -11,7 +11,7 @@ http.onreadystatechange = function () {
 };
 
 function next() {
-  count = (count == 3) ? 0 : count;
+  count = count == 3 ? 0 : count;
   document.getElementById("displayImg").src = guitardata[count].image_path;
   document.getElementById("product-description").innerHTML =
     guitardata[count].product_description;
@@ -19,10 +19,11 @@ function next() {
     guitardata[count].shipping_details;
   document.getElementById("customer_review").innerHTML =
     guitardata[count].customer_reviews;
+  document.getElementById("selectedItem").value = count;
   count++;
 }
 function previous() {
-  count = (count == 0) ? 3 : count;
+  count = count == 0 ? 3 : count;
   --count;
   document.getElementById("displayImg").src = guitardata[count].image_path;
   document.getElementById("product-description").innerHTML =
@@ -31,5 +32,6 @@ function previous() {
     guitardata[count].shipping_details;
   document.getElementById("customer_review").innerHTML =
     guitardata[count].customer_reviews;
-  count = (count == 0) ? 3 : count;
+  document.getElementById("selectedItem").value = count;
+  count = count == 0 ? 3 : count;
 }
