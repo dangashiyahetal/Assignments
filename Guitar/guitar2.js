@@ -17,7 +17,6 @@ function fn() {
   document.getElementById("Zip").innerHTML = zipcode.value;
   if (state.options[state.selectedIndex].value == !0) {
     document.getElementById("State").innerHTML = state.value;
-    console.log(state);
   }
 }
 
