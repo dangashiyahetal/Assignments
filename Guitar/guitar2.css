@@ -1,40 +1,48 @@
 h2 {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
+
 .Review {
-  margin-left: 20px;
+    margin-left: 20px;
 }
+
 .buy {
-  float: right;
-  width: 20%;
-  height: 40px;
-  color: blanchedalmond;
-  background-color: rgba(0, 0, 255, 0.606);
-  font-size: large;
-  font: bold;
-  margin-top: 25px;
-  margin-right: 20px;
+    float: right;
+    width: 20%;
+    height: 40px;
+    color: blanchedalmond;
+    background-color: rgba(0, 0, 255, 0.606);
+    font-size: large;
+    font: bold;
+    margin-top: 25px;
+    margin-right: 20px;
 }
+
 .card {
-  padding-left: 20px;
-}
-div#collapseOne {
-  border-top: 1px solid gray;
-  border-bottom: 1px solid gray;
-}
-.card{
     padding-left: 20px;
 }
-.navbar-default {
-  background-color: rgb(216, 164, 101) !important;
+
+div#collapseOne {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
 }
-.navbar-nav{
+
+.card {
+    padding-left: 20px;
+}
+
+.navbar-default {
+    background-color: rgb(216, 164, 101) !important;
+}
+
+.navbar-nav {
     background-color: rgb(216, 164, 101);
     font-size: 18px;
 
 }
-.navbar-brand{
+
+.navbar-brand {
     background-color: rgb(216, 164, 101);
     float: left;
     height: 50px;
@@ -42,6 +50,12 @@ div#collapseOne {
     line-height: 20px;
 }
 
-.active{
+.active {
     background-color: rgb(216, 164, 101);
+}
+
+.displayimg {
+    height: 225px;
+    width: 350px;
+    margin-bottom: 10px;
 }
