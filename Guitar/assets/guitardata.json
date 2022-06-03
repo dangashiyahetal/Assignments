@@ -7,7 +7,7 @@
       "price": "$204.99",
       "image_path": "./assets/image/product1.jpg",
       "stock_availability": "true",
-      "no_of_items": "10"
+      "no_of_items": "items avaialble:10"
     },
     {
       "product_description": "Modelled after the much more expensive Gibson SG guitars, the Epiphone SG G310 keeps it's cost low by using cheaper hardware and lower quality humbucking pick-ups. The G-310 features an alder body, a mahogany neck, and a dot-inlayed rosewood fingerboard.",
@@ -16,7 +16,7 @@
       "price": "$249.00",
       "image_path": "./assets/image/product2.jpg",
       "stock_availability": "true",
-      "no_of_items": "14"
+      "no_of_items": "items avaialble:14"
     },
     {
       "product_description": "Guitarists like Keith Richards, Steve Cropper, Albert Lee, and Danny Gatton favor the look and sound of the Telecaster. If you're a fan of any of those guitarists, this beginner guitar may be for you. ",
@@ -25,7 +25,41 @@
       "price": "$150.00",
       "image_path": "./assets/image/product3.jpg",
       "stock_availability": "true",
-      "no_of_items": "10"
-    }
-  ]
+      "no_of_items": "items avaialble:10"
+    },
+    {"product_description": "Guitarists like Keith Richards, Steve Cropper, Albert Lee, and Danny Gatton favor the look and sound of the Telecaster. If you're a fan of any of those guitarists, this beginner guitar may be for you. ",
+    "shipping_details": "charges for shipping $20",
+    "customer_reviews": "It's got a fatter sound to it than a standard strat for obvious reasons.; I only have a couple complaints. First of all, there's a slight buzzing problem on the sixth string; especially if you're not pressing hard. Also, the strings that came on it were very low quality; On several strings I couldn't even get a note below the 12th fret; but I put Elixirs on it and that's fixed.  ",
+    "price": "$150.00",
+    "image_path": "./assets/image/Guitar1.png",
+    "stock_availability": "true",
+    "no_of_items": "items avaialble:10"
+},
+{
+    "product_description": "The Les Paul is perhaps the most famous guitar in rock and roll. Epiphone has done a good job of visually re-creating the Les Paul in this lower-cost guitar marketed towards beginners. The Special II features a laminated alder/maple body, a magogany neck, rosewood fingerboard, and two open-coil humbucking pick-ups.",
+    "shipping_details": "charges for shipping $15",
+    "customer_reviews": "  Nice tone with use of quality strings, highs are clear and lows are decent; in depth considering this really is a beginner's guitar; Set up must be with quality strings.  No apparent flaws, guitar now 11 years old and still sounds great; Finish is still impeccable. I'm really surprised as I did not expect it to last this long; No apparent flaws, guitar now 11 years old and still sounds great. Finish is still impeccable",
+    "price": "$125.50",
+    "image_path": "./assets/image/Guitar2.png",
+    "stock_availability": "true",
+    "no_of_items": "items avaialble:15"
+},
+{
+    "product_description": "These Canadian-made instruments are terrific guitars - very highly regarded, both for their beautiful sound, and their excellent value. The S6 features a solid cedar top, and mahogany back and sides. ",
+    "shipping_details": "charges for shipping $20",
+    "customer_reviews": " It's a solid guitar and it's great for a beginner; It feels very sturdy; On the negative side one of the pickups is kind of wobbly; Buy a Squier Standard if you want something better than an Affinity (even cheaper); but don't have the money for a regular Fender. ",
+    "price": "$419.99",
+    "image_path": "./assets/image/guitar3.png",
+    "stock_availability": "true",
+    "no_of_items": "items avaialble:12"
+},
+{
+    "product_description": "Perhaps not in the same league as the Seagull, the FG700S is still a solid beginner acoustic guitar, and for the price (significantly cheaper than the S6), it's a good value.",
+    "shipping_details": "charges for shipping $20",
+    "customer_reviews": "  I think it's a decent value for the money; I've never had any real troubles with it. I'm not an advanced player, I've only been playing for about six months; but this guitar has done me well so far; I'm sure when I get more serious years from now I'll buy something better; but this is fine for now. ",
+    "price": "$199.99",
+    "image_path": "./assets/image/guitar4.png",
+    "stock_availability": "true",
+    "no_of_items": "items avaialble:15"
 }
+  ]}

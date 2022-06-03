@@ -1,7 +1,4 @@
-h2 {
-    display: flex;
-    justify-content: center;
-}
+
 
 .Review {
     margin-left: 20px;
@@ -58,4 +55,19 @@ div#collapseOne {
     height: 225px;
     width: 350px;
     margin-bottom: 10px;
+}
+#imageselected{
+    float: left;
+}
+#product-description{
+    font-size: large;
+    font-family: inherit;
+}
+.text-center{
+    float: left;
+    width: 100%;
+}
+#form{
+    float: none;
+font-size: large;
 }

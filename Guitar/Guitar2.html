@@ -28,63 +28,67 @@
         </ul>
       </div>
     </nav>
+
     <div class="text-center">
-      <img class="displayimg" id="imageselected" src="" alt="selected Guitar"></img>
+      <img class="displayimg" id="imageselected" src="" alt="selected Guitar">
+      <div id="product-description"></div>
     </div>
+    
+      <!-- <form> -->
+        <div id="enterpurchasedtl">
+        <h2>Purchase Form</h2>
+        <div class="form-row">
+          <p class="form-group col-md-6">
+            <label for="inputEmail4">Firstname</label>
+            <input type="text" id="firstname" placeholder="Firstname">
+          </p>
+          <div class="form-group col-md-6">
+            <label for="inputEmail4">Lastname</label>
+            <input type="text" id="lastname" placeholder="Lastname">
 
-    <div id="product-description"></div>
-    <div id="shipping-info"></div>
-    <div id="customer_review"></div>
-
-    <h2>Purchase Form</h2>
-    <div class="form-row">
-      <p class="form-group col-md-6">
-        <label for="inputEmail4">Firstname</label>
-        <input type="text" id="firstname" placeholder="Firstname" onblur="fn()">
-      </p>
-      <div class="form-group col-md-6">
-        <label for="inputEmail4">Lastname</label>
-        <input type="text" id="lastname" placeholder="Lastname" onblur="fn()">
-
-      </div>
-      <div class="form-group col-md-6">
-        <label for="inputEmail4">Email</label>
-        <input type="email" id="inputEmail" placeholder="Email" onblur="fn()">
-      </div>
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputEmail4">Email</label>
+            <input type="email" id="inputEmail" placeholder="Email">
+          </div>
 
 
-      <div class="form-group">
-        <label for="inputAddress">Address</label>
-        <input type="text" id="inputAddress" placeholder="Enter valid address" onblur="fn()">
-      </div>
-      <div class="form-group">
-        <label for="inputAddress2">Credit Card</label>
-        <input type="text" class="card" id="Credit" placeholder="Credit Card" onblur="fn()">
-      </div>
-      <div class="form-row">
-        <div class="form-group col-md-6">
-          <label for="inputCity" onblur="fn()">City</label>
-          <input type="text" class="form-control" id="inputCity" onblur="fn()">
+          <div class="form-group">
+            <label for="inputAddress">Address</label>
+            <input type="text" id="inputAddress" placeholder="Enter valid address">
+          </div>
+          <div class="form-group">
+            <label for="inputAddress2">Credit Card</label>
+            <input type="text" class="card" id="Credit" placeholder="Credit Card">
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputCity">City</label>
+              <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="form-group col-md-4">
+              <label for="inputState">State</label>
+              <select id="inputState" class="form-control">
+                <option value="0">Select State</option>
+                <option value="pa">Pennsylvania</option>
+                <option value="alaska">Alaska</option>
+                <option value="NJ">New Jersey</option>
+                <option value="NY">New York</option>
+                <option value="Tenne">Tennesse</option>
+              </select>
+            </div>
+            <div class="form-group col-md-2">
+              <label for="inputZip">Zip</label>
+              <input type="text" class="form-control" id="inputZip">
+            </div>
+          </div>
+
+          <button class="btn btn-primary Review" onclick="reviewbtn()">Go to Review</button>
         </div>
-        <div class="form-group col-md-4">
-          <label for="inputState">State</label>
-          <select id="inputState" class="form-control" onblur="fn()">
-            <option value="0">Select State</option>
-            <option value="pa">Pennsylvania</option>
-            <option value="alaska">Alaska</option>
-            <option value="NJ">New Jersey</option>
-            <option value="NY">New York</option>
-            <option value="Tenne">Tennesse</option>
-          </select>
-        </div>
-        <div class="form-group col-md-2">
-          <label for="inputZip">Zip</label>
-          <input type="text" class="form-control" id="inputZip" onblur="fn()">
-        </div>
       </div>
-
-      <button type="submit" class="btn btn-primary Review">Go to Review</button>
-      </form>
+      <!-- </form> -->
+   
+    <div id="paymentinfo" style="display: none;">
       <p id="fn"></p>
       <p id="ln"></p>
       <p id="email"></p>
@@ -96,9 +100,11 @@
 
       <p>
         <input type="button" class="buy sumbit" value="Buy" onclick="nextpage()">
+        <input type="button" class="buy sumbit" value="EDIT" onclick="showform()">
       </p>
-
-      <script type="text/javascript" src="guitar2.js"></script>
+    </div>
+    <input type="hidden" id="selectedItem" name="selectedItem" value="">
+    <script type="text/javascript" src="guitar2.js"></script>
 </body>
 
 </html>
