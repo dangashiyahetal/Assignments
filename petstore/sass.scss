@@ -1,0 +1,223 @@
+$float: left;
+$margin-bottom: 10px;
+$font-family: system-ui;
+$color: rgba(27, 172, 27, 0.692);
+$color: white;
+$padding-right: 70px;
+@mixin one {
+  padding-top: 15px;
+  font-size: 29px;
+  margin-bottom: 10px;
+}
+
+nav {
+  ul {
+    li {
+      display: inline-flex;
+      justify-content: space-evenly;
+      padding: 10px;
+      margin: 17px;
+    }
+  }
+}
+#nav {
+  float: right;
+}
+#main {
+  @media screen {
+    max-width: 52%;
+  }
+}
+#heading {
+  float: left;
+  background-color: orange;
+  height: 71px;
+  padding-left: 20px;
+  margin-left: 0;
+  width: 100%;
+}
+
+body {
+  margin-top: 0;
+  margin-left: 0;
+}
+#src {
+  margin-top: 60px;
+  height: 480px;
+}
+#title {
+  font-size: 20px;
+  margin-bottom: $margin-bottom;
+  font-family: $font-family;
+}
+#imag3 {
+  float: $float;
+}
+#imag4 {
+  float: right;
+}
+#toppara {
+  display: flex;
+  justify-content: center;
+}
+#title1 {
+  font-size: 20px;
+  margin-bottom: $margin-bottom;
+  font-family: $font-family;
+  margin-right: 20px;
+}
+#imag5 {
+  float: $float;
+  margin-left: 0;
+}
+#sidebar {
+  float: right;
+  @media screen {
+    max-width: 40%;
+  }
+}
+#para {
+  font-family: $font-family;
+}
+
+.para1 {
+  margin-right: 25px;
+}
+#searchbar {
+  background-color: orange;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+}
+#search {
+  height: 35px;
+  width: 285px;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+#button {
+  height: 35px;
+  border-radius: 5px;
+  color: white;
+  background-color: orange;
+  border: 1px solid white;
+  width: 70px;
+}
+#options {
+  background-color: rgba(226, 153, 17, 0.445);
+}
+#option1 {
+  background-color: orange;
+}
+
+#logos {
+  background-color: beige;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 25px;
+  @media screen {
+    max-width: 50%;
+  }
+  margin-top: 50px;
+}
+#lastpara {
+  background-color: rgb(49, 4, 4);
+  display: flex;
+  justify-content: space-around;
+  @media screen {
+    max-width: 52%;
+  }
+}
+
+#copyrite1 {
+  background-color: orange;
+  height: 30px;
+  padding-top: 12px;
+  @media screen {
+    max-width: 52%;
+  }
+}
+#copyrite {
+  text-align: center;
+}
+#im0 {
+  background-image: url("images/friendly-pets.jpg");
+  background-repeat: no-repeat;
+}
+#im1 {
+  background-image: url("images/pet-lover2.jpg");
+  background-repeat: no-repeat;
+}
+#im2 {
+  background-image: url("images/healthy-dog.jpg");
+  background-repeat: no-repeat;
+}
+#im3 {
+  background-image: url("images/pet-lover.jpg");
+  background-repeat: no-repeat;
+}
+.image-text {
+  color: lightgreen;
+  padding-top: 50%;
+}
+.para-text {
+  color: white;
+}
+#opttb1 {
+  background-image: url("images/bg-tab1.gif");
+  background-repeat: no-repeat;
+  margin-top: 10px;
+  padding-bottom: 5px;
+  width: 400px;
+}
+.tab2 {
+  background-image: url("images/bg-tab2.gif");
+  background-repeat: no-repeat;
+  padding-top: 10px;
+  width: 250px;
+}
+
+#multiop {
+  background-color: rgba(238, 164, 27, 0.473);
+  padding-top: 13px;
+
+  height: 316px;
+  width: 300px;
+  border-radius: 5px;
+}
+.tabs {
+  border: 1px solid rgba(204, 141, 23, 0.877);
+  height: 25px;
+  width: 230px;
+  margin: 5px;
+  margin-left: 10px;
+  border-radius: 3px;
+  padding: 3px;
+  margin-left: 17px;
+  padding-left: 15px;
+}
+.seeall {
+  padding-right: 75px;
+}
+.tab1 {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 1px;
+}
+
+.seeall3 {
+  padding-left: 47%;
+}
+
+.seeall4 {
+  padding-right: 55px;
+}
+.seeall5 {
+  padding-right: 39%;
+}
+.seeall2 {
+  padding-right: 39%;
+}
+.seeall1 {
+  padding-right: 50%;
+}
